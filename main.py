@@ -62,7 +62,7 @@ def resetScore():
     scoreFile.close()
 
 def getNewRand():
-    rand = random.randint(1, len(questions) - 2)
+    rand = random.randint(0, len(questions) - 2)
     avgScore = np.mean(score)
     while score[rand] >= avgScore:
         rand = random.randint(1, len(questions) - 2)

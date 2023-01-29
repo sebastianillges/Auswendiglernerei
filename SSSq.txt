@@ -1,0 +1,102 @@
+1. Welche elektrische Größe misst ein Drehspul-Messwerk?
+2. Wie funktioniert ein Drehspulinstrument?
+3. Eine indirekte Messgröße A berechnet sich als Differenz zweier direkt gemessener Eingangsgrößen B und C mit absolutem Messfehler ΔB bzw. ΔC, d.h. A = B - C. Wie groß schätzen Sie den absoluten Messfehler ΔA?
+4. Sie haben eine indirekt gemessene Größe A, die von mehreren Eingangsgrößen B, C, D, ... abhängt, die alle den gleichen Messfehler haben. Welche der Eingangsgrößen hat den größten Einfluss auf den Messfehler von A?
+5. Was leistet die lineare Regression?
+6. Kann man die lineare Regression auch bei Kennlinien anwenden, die einem Gesetz der Form y = x ^ a folgen?
+7. Sie haben in Python eine 5 x 5 - Matrix a angelegt. Wie greifen Sie auf das zweite Element der dritten Zeile zu?
+8. Ein Messintrument hat einen Anzeigefehler von 1% und einen Skalenendwert von 5 A. Im Moment zeigt das Instrument einen Strom von 2 A an. In welchem Bereich liegt der wahre Wert des Stroms?
+9. Auf der Anzeige Ihres analogen Messinstrumentes steht "KL 1.5". Was bedeutet das?
+10. Wie schätzt man den wahren Wert einer Messgröße, wenn mehrere fehlerbehaftete Messungen vorliegen?
+11. Sie haben 20 Einzelmessungen mit einer Standardabweichung des Mittelwertes von s. Wie groß ist das Vertrauensintervall, in das der wahre Wert der Messgröße mit einer Wahrscheinlichkeit von 95,5 % fällt?
+12. Warum muss man jede Messung mit dem größten Messbereich beginnen?
+13. Warum kann ein Drehspulinstrument nicht beliebig schnell veränderliche Ströme oder Spannungen anzeigen?
+14. Was ist der Parallaxenfehler?
+15. Welches Messprinzip liegt dem im Praktikum eingesetzten Abstandssensor zugrunde?
+16. Zu was benützt man ein Oszilloskop?
+17. Wie funktioniert ein analoges Oszilloskop?
+18. Was ist der Unterschied zwischen einem Sensor und einem Messgerät?
+19. Was für ein Sensortyp ist der im Praktikum eingesetzte Abstandssensor?
+20. Wie funktioniert die Triggerung beim Oszilloskop?
+21. Wofür braucht man ein Dunkelbild?
+22. Was bedeutet Vignettierung?
+23. Wie findet man die "dead pixels" einer Kamera?
+24. Wie sehen die Fourierkoeffizienten der zweiseitigen trigonometrischen Fourierreihe für x(t) \= a cos(2 omega t) aus?
+25. Wie viele Terme hat die zweiseitige trigonometrische Fourierreihe von 1 + sin t + 3 cos 2t?
+26. Welche Symmetrien hat die zweiseitige Fourierreihe?
+27. Aus welchen Grundsignalen besteht die komplexe Fourierreihe?
+28. Aus welchen Summentermen besteht die harmonische Form der Fourierreihe?
+29. Welchen Vorteil hat die trigonometrische Form der Fourierreihe gegenüber der harmonischen Form?
+30. Was ist der Unterschied zwischen der Menge der zweidimensionalen Vektoren und den komplexen Zahlen?
+31. Was ist der Unterschied zwischen dem Skalarprodukt in einem zweidimensionalen Vektorraum und der Multiplikation zweier komplexer Zahlen?
+32. Was ist die Phase einer Sinusschwingung?
+33. Was haben komplexe Zahlen mit Sinusschwingungen zu tun?
+34. Wie berechnet sich die Frequenz einer Sinusschwingung, das aus der Summe einer Sinus- und einer Cosinusfunktion gleicher Frequenz entsteht?
+35. Was ist ein gerades Signal?
+36. Was ist eine δ-Impulsfolge?
+37. Wie unterscheidet sich das Spektrum periodischer Rechteckimpulse von einer Gauß-Impulsfolge und warum?
+38. Was ist die Regellage?
+39. Welches der unten aufgeführten Signale enthält keine unendlich hohen Frequenzen?
+40. Wie unterscheiden sich die Spektren von schnell und langsam veränderlichen Signalen?
+41. Wie verändert sich das Spektrums einer Rechteckschwingung mit fester Impulsdauer, bei der die Periode immer weiter erhöht wird?
+42. Was ist ein fastperiodisches Signal?
+43. Sie beobachten ein Spektrum aus mehreren Linien bei 100 Hz, 200 Hz, 270 Hz, 400 Hz und 800 Hz. Um was für einen Signaltyp handelt es sich?
+44. Welche Signale lassen sich als Fourierreihe darstellen?
+45. Wie sieht das Spektrum eines einzelnen Rechteckimpulses aus?
+46. Wie sieht die Fouriertransformierte des mit 2 skalierten Einheitsimpulses aus?
+47. Wie kann man am Besten die wechselnde Tonhöhe in der Aufnahme eines Solo-Musikstückes bestimmen?
+48. Sie zerlegen ein relativ glattes, periodisches Signal in mehrere Abschnitte und bestimmen in jedem Abschnitt die lokale Fouriertransformation. Wie unterscheiden sich die lokalen Spektra vom Gesamtspektrum und warum?
+49. Was bedeutet die Komplementarität von Frequenz und Zeit?
+50. Wie berechnet man die Frequenzunschärfe eines Signals?
+51. Was besagt die Frequenz-Zeit-Unschärferelation?
+52. Bei welchem Signal ist das Produkt aus Zeit- und Frequenzunschärfe genau gleich 1?
+53. Was ist der Unterschied zwischen der Fourierreihe und dem Spektrum eines periodischen Signals?
+54. Was ist die Ausblendeigenschaft des Dirac-Impulses?
+55. Bei dem Spektrum eines Signals ist der Realteil gerade und der Imaginärteil ungerade. Um was für einen Signaltyp handelt es sich?
+56. Die Fouriertransformierte von f_1(t) sei F_1(ω), die Fouriertransformierte von f_2(t) sei F_2(ω). Wie sieht die Fouriertransformierte von f(t) = 3 f_1(t) - 0.7 f_2(t) aus, und welche Eigenschaft macht man sich dabei zunutze?
+57. Was passiert mit dem Spektrum eines Signals, wenn man es in zeitlicher Richtung verschiebt?
+58. Wie sieht das Spektrum eines Signals aus, das um den Faktor 2 im Zeitbereich gestreckt wird?
+59. Was passiert mit dem Spektrum eines Signals, wenn man es mit einem konstanten Phasenfaktor mit dem Phasenwinkel a multipliziert?
+60. Was ist das Gibbs-Phänomen?
+61. Wie wirkt die Differentiation auf das Spektrum eines Signals?
+62. Wie funktioniert die Faltung, um das Ausgangssignal eines Systems zur Zeit t zu berechnen?
+63. Wie sieht der Amplitudengang eines Differenzierers aus?
+64. Wie wirkt ein lineares System auf das Spektrum eines Signals?
+65. Was ist ein Bode-Diagramm?
+66. Wie verändert der Phasengang eines linearen Systems die Phase des Eingangssignals?
+67. Wievielen Dezibel entspricht ein Verstärkungsfaktor von 100?
+68. Was ist Filterung?
+69. Welche Eigenschaften haben ideale frequenzselektive Filter im Zeitbereich?
+70. Wie muss man den Frequenzgang eines Filters im Spektralraum verändern, damit sich die Impulsantwort in der Zeitdomäne verschiebt?
+71. Was ist das Faltungsintegral?
+72. Wie kann man einen Vokal in einem Sprachsignal erkennen?
+73. Was ist ein Phonem?
+74. Wie funktioniert die Kurzzeit-Fouriertransformation?
+75. Was muss man bei der Wahl des Fensters bei der Kurzzeit-Fouriertransformation beachten?
+76. Wie funktioniert ein Nächste-Nachbar-Klassifikator?
+77. Wie unterscheiden sich Korrelation und Kovarianz als Ähnlichkeitsmaß?
+78. Warum verwendet man meist nichtideale Filter mit welligen Durchlass- und Sperrbereichen und einem Übergangsbereich statt idealen frequenzselektiven Filtern?
+79. Was sind Formanten?
+80. Wie wird die momentane Frequenz eines akustischen Eingangssignals in der Basilarmembran des Innenohrs codiert?
+81. Was ist eine Schwebung?
+82. Ein System liefert für eine Sinusschwingung als Eingangssignal eine doppelt so große Sinusschwingung gleicher Frequenz als Ausgangssignal, das um 10 ms verzögert ist. Um welche Art von System handelt es sich?
+83. Wie beschreibt man mathematisch die Abtastung eines Signals g(t) zum Zeitpunkt t1?
+84. Wie sieht das Spektrum einer mit Abtastintervall 1 abgetasteten Funktion mit Spektrum G(omega) aus?
+85. Wie verändert sich das Spektrum einer Kammfunktion, wenn man das Abtastintervall verdreifacht?
+86. Unter welchen Bedingungen entsteht Aliasing?
+87. Wie funktioniert das Sägezahnverfahren bei der A/D-Wandlung?
+88. Welche scheinbare Frequenz hat ein Sinussignal der Frequenz f0, wobei f0 größer als die Nyquistfrequenz, aber kleiner als die Abtastfrequenz f1 ist?
+89. Was ist Aliasing?
+90. Wie schafft man es, die Fouriertransformierte eines diskreten Signals im Computer zu berechnen, obwohl seine Fouriertransformierte kontinuierlich ist?
+91. Ist die diskrete Fouriertransformation und die Fouriertransformation bei zeitdiskreten Signalen das Gleiche?
+92. Was ist ein FIR-Filter?
+93. Was ist ein FFT-Filter?
+94. Wieviele Fourierkoeffizienten hat die Fourierreihe eines diskreten Signals, das aus 8 Abtastpunkten besteht?
+95. Warum braucht man bei diskreten periodischen Signalen nur endliche Fourierreihen zu ihrer Darstellung?
+96. Was sind die Unterschiede zwischen den Analysegleichungen der diskreten und kontinuierlichen Fourierreihe?
+97. Warum reicht bei diskreten linearen Systemen die Antwort auf einen Einheitsimpuls zum Zeitpunkt 0, um es vollständig zu charakterisieren?
+98. Wie berechnet man die Systemantwort eines diskreten linearen Systems?
+99. Was ist der Hauptunterschied zwischen dem Spektrum eines aperiodischen kontinuierlichen Signals und dem eines aperiodischen diskreten Signals?
+100. Wie sieht ein idealer zeitdiskreter Tiefpass im Spektralraum aus?
+101. Ein zeitdiskreter Filter besteht aus der Differenz des momentanen Inputwertes und des Inputwertes des vergangenen Zeitschritts. Um was für eine Art von Filter handelt es sich? 
+102. Ist eine zeitdiskrete Sinusschwingung immer periodisch?

@@ -1,0 +1,102 @@
+1. Stromfluss I [A] (elektromagnetisches Feld)
+2. Durch den Stromfluss entsteht ein elektromagnetisches Feld in der Spule. Je größer Stromfluss, desto größer das Magnetfeld (Anziehungs- Abstoßungskraft zw. den Polen). Die Spule ist direkt mit dem Zeiger verbunden. Spiralfeder als Gegenkraft, damit der Zeiger nicht sofort auf den Anschlag geht.
+3. ∆A = ∆B + ∆C
+4. Partielle Ableitung bilden und schauen, welche der Eingangsgrößen am häufigsten  vorkommt. Fehlerfortpflanzung.
+5. Sie ist eine alternative Methode zur Bestimmung der Übertragungsfunktion. Es wird angenommen, dass die Übertragsfunktion linear ist. Ziel ist es, eine Ausgleichsgerade zu finden, die die Abstände zw. allen Messpunkten minimiert.
+6. Ja durch die doppelte Logarithmierung.
+7. matrix[2][1]
+8. 2A +- 0.05A
+9. Fehlerklasse. Es handelt sich hier um ein Betriebsmessgerät mit eine- Fehlerklasm Anzeigefehler von 1.5% auf den Skalenendwert bezogen eine Standardtemperatur.
+10. Der Fehler oder der wahre Wert müssen geschätzte werden, üblicherweise durch mehrfache Messung.
+11. ± sx gibt einen Vertrauensbereich an in den 68% der arithmetischen Mittelwerte fallen. ±2sx gibt den 95% Bereich an sofern keine systematischen Fehler vorliegen (x(mittel) - x (wahr)). Wenn wenige Messwerte vorliegen (z.B. n = 30), besteht die Gefahr einer Unterschätzung des Fehlers, da die Schätzung von sx selbst fehlerbehaftet ist. Man korrigiert daher die Fehlerschätzung um einen t nach oben, der von der Anzahl der Messungen und der gewünschten Sicherheit abhängt. (x = x(mittel) ± t * sx
+12. Spule verträgt nicht viel Strom und kann daher von zu großen Strömen zerstört werden.
+13. Jede Zeigerstellung entspricht einem Gleichgewichtszustand zw. Magnet- und Rückstellkraft -> Gerät muss einschwingen
+14. Je nach Blickwinkel auf den Zeiger liest man einen leicht unterschiedlichen Wert ab. Idealerweise muss genau senkrecht abgelesen werden
+15. Physikalischer // Triangulationsprinzip.
+16. Um Signale und Schwingungen zu visualisieren => im Zeitbereich. Mit dem Oszilloskop können zeitabhängige (und insbesondere schnellveränderliche) Größen gemessen werden.
+17. Metall wird erhitzt. Elektronen werden freigesetzt. Durch Metallplatten wird der Elektronenstrahl abgelenkt. x-Ablenkung durch Sägezahnspannung. Fluoreszierende Oberfläche macht das auftreffende Elektron sichtbar.
+18. Der Sensor ist der Teil eines Messgeräts oder einer Messeinrichtung, der auf eine Messgröße unmittelbar anspricht.
+19. Extrinsisch: Ermitteln von Informationen über die Systemumgebung. Aktiv: benötigt Energiezufuhr
+20. Triggerung: Bei jedem Durchlauf wird die Ablenkung solange angehalten, bis das zu messende Signal einen definierten Spannungswert erreicht. Dadurch werden die Perioden eines periodischen Signals stets genau übereinander gezeichnet.
+21. Jeder Pixel hat einen belichtungszeitabhängigen Minimalwert, den man durch Subtraktion eines Dunkelbildes entfernen kann.
+22. Der durch die Optik der Kamera verursachte Helligkeitsabfall zu den	Bildrändern hin.
+23. In einem Weißbild zeigen sich die "dead pixels" als schwarze Punkte, die man mit einem Schwellwert finden kann.
+24. ak und bk
+25. 5 (für das t positive und negative werte (links und rechts der y-achse))
+26. Beim cos-Teil Achsensymetrisch. Der sin-Teil ist Punktsymetrisch.
+27. Aus Cos für dem Realteil und sin für den Imaginärteil
+28. Aus Cosinus-Termen unterschiedlicher Phase und Amplitude. Die Frequenzen sind positive, ganzzahlige Vielfache der Grundfrequenz.
+29. keine Phasenverschiebung entlang der Zeitachse
+30. Komplexe zahlen können multipliziert und dividiert werden
+31. Bei der komplexen Multiplikation ist das Ergebnis wieder ein zweidimensionale Größe, bei der Skalarmultiplikation ist das Ergebnis eine reelle Zahl.
+32. Die Verschiebung der Schwingung entlang der Zeitachse.
+33. Jede komplexe Zahl kann über die Eulerformel als Sinusschwingung dargestellt werden.
+34. Die Frequenz berechnet sich aus dem Arcustangens des Amplitudenverhältnisses.
+35. Ein Signal, das bei der Spiegelung an der y-Achse in sich selbst übergeht.
+36. Ein unendlich schmales und hohes Rechteecksignal
+37. Das Spektrum der periodischen Rechteckimpulse enthält höhere Frequenzen, da es Sprünge im Signal gibt.
+38. Die zu den positiven Frequenzen gehörige Seite des zweiseitigen Amplitudenspektrums.
+39. Eine Sinusschwingung.
+40. Schnell veränderliche Signale enthalten höhere Frequenzen als langsam veränderliche Signale.
+41. Wird die Periodendauer größer, so wird der Abstand der Linion im Spektrum immer enger. Geht die Periodendauer gegen unendlich, verschmelzen die einzelnen Linien zu einem durchgehenden Spektrum.
+42. Zeitlich begrenztes periodisches Signal, sie besitzten linienähnliche Spektren.
+43.  Um ein quasiperiodisches Signal.
+44. Alle praktisch vorkommenden periodischen Signale.
+45. Das Spektrum besteht aus Linien mit Amplituden, die durch eine Sinc-Funktion beschrieben werden, d.h. sinc x = (sin x) / x.
+46. 1*2 = 2
+47. Durch Zerlegung des Signals in überlappende Abschnitte, in denen man eine lokale Fourieranalyse durchführt, nachdem man die Abschnitte mit einer möglichst glatten Fensterfunktion multipliziert hat.
+48. Die lokalen Spektra enthalten deutlich höhere Frequenzen, da durch das Ausschneiden plötzliche Übergängen entstehen, die wiederum hohe Frequenzanteile haben.
+49. Je eingeschränkter das Frequenzband eines Signals ist, desto größer muss zwangsläufig die Zeitdauer des Signals sein
+50. ∆t · ∆f ≥ 0.88 bzw. σt · σω ≥ 1
+51. Man kann niemals die Zeitdauer und Frequenz eines Signals genauer als σ_t · σ_ω = 1 angeben. 
+52. Bei Gabor-Wavelets
+53. Fourierreihe und Spektrum sind bei periodischen Signalen dasselbe.
+54. Ein Dirac-Impuls blendet alle Werte eines Signals f(t) aus, d.h. er setzt alle auf 0, mit Ausnahme des Wertes f(t) an t.
+55. reelles Signal, ohne Symmetrie.
+56. 3 F_1 (ω) - 0.7 F_2 (ω) (Linearitätseigenschaft)
+57. Das Spektrum wird ebenfalls mit dem gleichen Faktor multipliziert.
+58. Um dem Faktor 2 gestaucht.
+59. nichts
+60. Obwohl endliche Fourierreihen gegen eine unstetige Funktion konvergieren, verringert sich der maximale Abstand zwischen endlicher Fourierreihe und der Zielfunktion nicht.
+61. Die Ableitung im Frequenzbereich ist besonders einfach: simple Multiplikation um den Faktor iω. (kap. 12.17)
+62. kennt man die Antwort des Systems auf jeden zeitverschobenen Dirac-Impuls, so weiß man die Systemantwort auf jedes beliebige Signal. (kap. 13.29) Impulsantwort (oder Sprungantwort mit anschließendem Differenzierer) * f(t) (kap. 14.4)
+63. Jede Sinussignal wird proportional zu seiner Frequenz verstärkt, d.h. der Amplitudengang ist eine Gerade mit Steigung 1 (kap. 12.26)
+64. Wird auf den Eingang (oder die Eingänge) eines Systems ein sinusförmiges Signal beliebiger Frequenz gegeben und erscheint am Ausgang lediglich ein sinusförmiges Signal genau dieser Frequenz, so ist der Prozess linear. (kap. 12.6) ->spektrum hat gleiche 1 harmonische? (kap. 12.6 ff) Ein lineares System faltet ein Signal im Ortsraum. Faltung im Ortsraum entspricht Multiplikation im Frequenzraum.
+65. Darstellung des Frequenzgangs H(ω) in abhängigkeit der Frequenz (logarithmiert)
+66. Phasengang: gibt für jede Frequenz an, wie stark die Phase der Sinusschwingungen verschoben wird. Der Phasengang ist meistens negativ, d.h. der Ausgang folgt verzögert dem Eingang. (kap. 12.24)
+67. 40 db (kap. 12.28)
+68. Veränderung der relativen Amplituden einzelner Frequenzkomponenten in einem Signal (kap. 4.12)
+69. Ideale Filter sind extrem scharf im Frequenzbereich lokalisiert. Nach der Unschärferelation führt dies zu einer weiträumigen ”Verschmierung” im Zeitbereich. (kap. 14.17), Nichtkausal, Unendlich große Impulsantwort (Sinc-Funktion), Überschwingen, Oszillierendes Einschwingen (kap. 14.18)
+70. durch eine Multiplikation des Frequenzgangs mit einem Phasenfaktor e^(−iωa) erreicht man eine Verschiebung der Impulsantwort. (kap. 14.19)
+71. Systemantwort ermittelt durch Integral über f(zeitverschoben t) * impulsantwort h(t - zeitverschoben t)
+72. Vokale sind fastperiodische Signalabschnitte in Sprachsignalen. (kap. 11.7), Linie im Sonogramm
+73. Die Menge aller Phone, die in einer gesprochenen Sprache die gleiche bedeutungsunterscheidende Funktion haben (z.B. gerolltes “r” und Rachen-“r”). (kap. 11.9)
+74. überlappende Fenster erstellen, Fensterfunktion anwenden, Fenster fourier analysieren (kap. 11.10)
+75. fehlt
+76. Für jedes zu erkennende Wort wird ein Referenzspektrum (Prototyp) gespeichert. Der momentane Sprachinput wird mit den Referenzspektren verglichen. Das ähnlichste Referenzspektrum wird als die wahrscheinlichste Wortbedeutung interpretiert. (kap. 11.24)
+77. Kovarianz ist unabhängig vom Mittelwert (kap. 11.26) (Bei der Korrelation ist die "Ähnlichkeit" bei lauten Signalen immer größer)
+78. fehlt
+79. Die Frequenzbereiche, bei denen die relative Verstärkung (im Hohlraumresonator) am höchsten ist, bezeichnet man als Formanten. (kap. 11.18)
+80. fehlt
+81. Interferenz zweier ähnlicher Frequenzen ->Amplitude scheint sich periodisch zu ändern
+82. fehlt
+83. g(1) = Integral(g(t) * δ(t - 1))
+84. fehlt
+85. fehlt
+86. Wenn das Signal unterabgetastet wird. Das bedeutet konkret, wenn sich im Signal Frequenzen über der halben Abtastfrequenz (Nyquist-Frequenz) befinden
+87. Taktgeber, Sample-and-Hold, Sägezahn-Generator (synchronisiert mit Taktgeber), Sägezahnspannung wird mit Sample-and-Hold verglichen => wie lang passt der Sägezahn in das S-a-H, Abzähle, wie viele Takte in die Vergleichsspannung aus 4 passen, #Pulsweitenmodulation
+88. fehlt
+89. Aliasing entsteht wenn das Abtasttheorem nicht eingehalten wird. Beim Aliasing entstehen verfälschte Frequenzen.
+90. fehlt
+91. fehlt
+92. FIR steht für Finite Impulse Response (Endliche Impulsantwort) verwendet nur eine begrenzte Anzahl von Daten am Eingang zur Berechnung des Filterergebnisses. Bsp. Mittelwertbildung durch Summierung einzelner aufeinander folgender Werte (kap. 17 ff)
+93. Signal wird über FFT in den Frequenzbereich transformiert (kap. 17.14). Vom fouriertransformatierten Signal können bestimmte Frequenzen abgeschnitten werden. Anschließend wird das Spektrum rücktransformiert und man erhält ein gefiltertes Signal. Allgemeines zu Filtern: Ein Filter kann durch eine Faltung des Signals (mit dem Filter) im Ortsraum beschrieben werden. Diese Faltung ist wiederum gleich der Multiplikation des Spektrums des Filters und dem Spektrum des Signals!
+94. fehlt
+95. fehlt
+96. fehlt
+97. fehlt
+98. Faltung mit dem Dirac-Impuls. Summe der zeitverschobenen Impulsantworten. Faltung etwas anschaulicher: Fahre mit der Faltungsfunktion über die Funktion, als wäre sie ein Filter. Berechne an jeder Stelle das gewichtete Mittel (wie beim 2D Filter). Das Ergebnis ist die Faltung der beiden Funktionen. Beispiel Dirac: "Filter" ist nur am "Hotspot" 1, sonst 0 Fährt man damit über eine Funktion f(x) so erhält man wieder f(x) => Der Dirac-Impuls ist das "neutrale Element" der Faltung.
+99. aperiodisch kontinuierliches Signal => aperiodisch kontinuierliches Spektrum aperiodisch diskretes Signal => periodisch kontinuierliches Spektrum => das wäre, als würde man ein kontinuierliches aperiodisches Signal mit der Kammfunktion falten. Dadurch entstünde auch ein periodisches Spektrum (da Spektrum der Kammfunktion ebenfalls eine Kammfunktion ist [periodisch]). Aufgrund der Aperiodizität ist das Signal endlich und besitzt deswegen ein kontinuierliches Spektrum, da sich unendlich hohe Frequenzen darin befinden müssen
+100. Wie eine diskrete Rechteckschwingung.
+101. Durchschnitt: Tiefpass. Differenz: Hochpass.
+102. Nur, wenn die Periode ein ganzzahliges Vielfaches der Abtastzeit ist. (kap. 16.5)

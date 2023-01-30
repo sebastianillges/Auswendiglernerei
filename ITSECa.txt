@@ -8,3 +8,49 @@
 8. Software and Data Integrity Failures
 9. Security Logging and Monitoring Failures
 10. Server-Side Request Forgery (SSRF)
+11. Microsoft Security Development Lifecycle
+12. 1.Training 2. Requirements 3. Design 4. Implementation 5. Verification 6. Release 7. Response
+13. 1. Provide training 2. Define security requirements 3. Define metrics and compliance reporting 4. Perform threat modeling 5. Establish design requirements 6. Define and use cryptography standards 7. Manage the security risk of using third party components 8. Use approved tools 9. Perform static analysis security testing (SAST) 10. Perform dynamic analysis security testing (DAST) 11. Perform penetration testing 12. Establish a standard incident response process
+14. Common Weakness Enumeration
+15. Time of check to time of use
+16. 1. Der Angreifer erstellt eine symbolische Verknüpfung, die auf die Datei "/etc/passwd" zeigt, die er als "evil" benennt. 2. Der Angreifer wartet, bis ein Benutzer oder ein Programm die Datei "/etc/passwd" über die symbolische Verknüpfung "evil" zugreift. 3. Der Angreifer ändert schnell die symbolische Verknüpfung "evil", so dass sie auf eine andere Datei zeigt, die er als "malicious" benennt, die er kontrolliert und die Schadcode enthält. 4. Der Benutzer oder das Programm, das auf die Datei "/etc/passwd" zugreift, öffnet nun versehentlich die Datei "malicious", die Schadcode ausführt, was zu einer Kompromittierung des Systems führen kann.
+17. Common Attack Pattern Enumeration and Classification
+18. Fuzzing ist eine Methode zur automatischen Entdeckung von Fehlern und Sicherheitslücken in Software, indem zufällige oder ungültige Eingabedaten (Fuzz) an die Eingabeaufforderungen einer Anwendung gesendet werden, um zu sehen, ob das Programm fehlerhaft reagiert oder abstürzt. Es gibt verschiedene Arten von Fuzzing-Tools und -Methoden, wie z.B. "Black Box Fuzzing" und "White Box Fuzzing", die je nach Anwendungsfall verwendet werden können.
+19. Decompiler: machine code -> source code, Disassembler: machine code -> assembly lang, Debugger: kontrolliert Prozesse, VM: kontrollierte Ausführung
+20. Spoofing of user identity -> authentication, Tampering of data -> integrity, Repudiation of actions -> accountability, Information disclosure (e.g. privacy breach) -> confidentiality, Denial of service -> availability, Elevation of privilege -> authorisation
+21. «Trusted Path A mechanism by which a person at a terminal can communicate directly with the Trusted Computing Base. This mechanism can only be activated by the person or the Trusted Computing Base and cannot be imitated by untrusted software.»
+22. Black box: Aus sicht des Angreifers (keine insider Informationen), White box: insider Informationen, Grey box: wahrscheinlich iwas dazwischen
+23. True positive -> Erfolg, False positive -> erhöhter Aufwand, False negative -> erhöhtes Risiko, True negative -> no problemo
+24. Abstract syntax tree
+25. Control flow graph
+26. Taint Analysis ist eine Methode zur Überwachung und Analyse von Datenströmen in einer Anwendung, um unerwartete oder unerwünschte Eingaben zu erkennen und zu verhindern. Sensible Daten werden mit einem "Schmutz" markiert und der Datenfluss wird überwacht, um sicherzustellen, dass die markierten sensiblen Daten nicht an unerwartete Stellen gelangen. Wenn ein potenzielles Sicherheitsproblem erkannt wird, wird eine Benachrichtigung gesendet und das Problem wird behoben, um die Sicherheit der Anwendung zu verbessern.
+27. Building Security In Maturity Model
+28. BSIMM (Building Security In Maturity Model) ist ein Rahmenwerk, das von Cigital entwickelt wurde, um die Sicherheit von Software in Unternehmen zu messen und zu verbessern. Es basiert auf einer Studie von Unternehmen, die erfolgreich Software-Sicherheit implementiert haben und beinhaltet 12 Aktivitäten, die in drei Kategorien unterteilt sind: Governance, Intelligence und Operations. Mit BSIMM können Unternehmen ihre aktuelle Sicherheitspraxis messen und verbessern.
+29. Security und Safety sind beide Begriffe, die in der IT verwendet werden, um die Sicherheit von Systemen und Anwendungen zu beschreiben, aber sie haben unterschiedliche Schwerpunkte. Security bezieht sich auf Schutzmaßnahmen, um die Integrität, Vertraulichkeit und Verfügbarkeit von Daten und Systemen zu gewährleisten. Safety bezieht sich auf Schutzmaßnahmen, um die Gesundheit und das Wohl der Benutzer und die Umwelt vor Schäden durch IT-Systeme zu schützen. In der Praxis können die beiden miteinander verknüpft sein.
+30. Confidentiality, integrity, availability ("CIA"), Privacy, authenticity, accountability, control, utility, ...
+31. Art. 25 Data protection by design and by default (fehlt)
+32. Economy of mechanism: Keep the design as simple and small as possible.
+33. Fail safe defaults: Base access decisions on permission rather than exclusion.
+34. Complete mediation: Every access to every object must be checked for authority.
+35. Open design: The design should not be secret
+36. Separation of privilege: Where feasible, a protection mechanism that requires two keys to unlock it is more robust and flexible than one that allows access to the presenter of only a single key.
+37. Least privilege: Every program and every user of the system should operate using the least set of privileges necessary to complete the job.
+38. Least common mechanism: Minimize the amount of mechanism common to more than one user and depended on by all users.
+39. Psychological acceptability: It is essential that the human interface be designed for ease of use, so that users routinely and automatically apply the protection mechanisms correctly.
+40. Work factor: Compare the cost of circumventing the mechanism with the resources of a potential attacker.
+41. Compromise recording : In computer systems, mechanisms that reliably record that a compromise has occurred are used rarely, since it is difficult to guarantee discovery once security is broken.
+42. Bedrohungsmodellierung (Bedrohungen identifizieren), Risikobewertung (Wahrscheinlichkeit, Auswirkung, Widerstandskraft), Mitigation-Planung (Sicherheitsmaßnahmen identifizieren, planen und einführen)
+43. "Welche begleitenden Maßnahmen für eine erfolgreiche Umsetzung erforderlich sind", "Ob die Maßnahme mit anderen Maßnahmen vereinbar ist", "In welcher Reihenfolge die verschiedenen Maßnahmen umgesetzt werden sollen"
+44. "Sie verdeutlichen ihr, welche Risiken mit dem Fehlen der Maßnahme verbunden sind.", "Sie bitten die Leitung, durch Unterschrift zu bestätigen, dass sie die damit verbundenen Gefahren kennt und trägt."
+45. "Der zuständige Systemadministrator"
+46. NULL = Jeder hat alle Rechte für das Objekt, leer = Niemand hat Rechte für das Objekt
+47. Privileg = Legt Rechte für Nutzer/Nutzergruppen fest, wie z.B. read, write, execute,..., Zugriffsmaske = Legt für ein Objekt fest welche Nutzer/Nutzergruppen welche Rechte für dieses Objekt haben.
+48. Role Based Access Control
+49. Sessions
+50. Role Hierarchy
+51. Operations und Objects
+52. Überwachungsmodus um WDAC-Richtlinien zu ändern
+53. Common Vulnerabilities and Exposures
+54. CWE beschreibt Arten von Softwareschwachstellen, CVE beschreibt spezifische Fälle von Schwachstellen
+55. (UA) User Assignment
+56. user_sessions bzw. session_roles

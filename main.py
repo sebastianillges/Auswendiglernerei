@@ -123,9 +123,9 @@ while True:
         randomNumber = getNewRand()
         currentScore = score[randomNumber]
         scoreAvg = np.mean(score)
-        if currentScore == scoreAvg:
+        if currentScore == scoreAvg or currentScore == 0:
             color = 'White'
-        elif currentScore < scoreAvg:
+        elif scoreAvg > currentScore > 0:
             color = 'Red'
         else:
             color = 'Green'

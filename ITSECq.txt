@@ -19,7 +19,7 @@
 19. Welche reverse engineering tools gibt es?
 20. Wofür steht MS STRIDE?
 21. Was ist Trusted Path?
-22. Wofür ist Black box, White box und Grey bot testing?
+22. Was ist Black box, White box und Grey box testing?
 23. Welche (vier) Ergebnisse kann automatisierte code Analyse liefern?
 24. Wofür steht AST?
 25. Wofür steht CFG?

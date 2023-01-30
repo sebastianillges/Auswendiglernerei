@@ -40,7 +40,11 @@ answers = getLines(answerFile)                                                  
 print(str(len(answers)) + " answers")
 
 def loadScore():
-    return np.genfromtxt(open("scores.csv"), delimiter=',', dtype=int, usecols=1)
+    try:
+        return np.genfromtxt(open("scores.csv"), delimiter=',', dtype=int, usecols=1)
+    except:
+        resetScore()
+        return np.genfromtxt(open("scores.csv"), delimiter=',', dtype=int, usecols=1)
 
 def safeScore():
     resetScore()
@@ -56,7 +60,10 @@ def updateScore(lineNum):
 
 def resetScore():
     index = np.linspace(1, len(questions), num=len(questions))
-    os.remove("scores.csv")
+    try:
+        os.remove("scores.csv")
+    except:
+        pass
     print("Score reset")
     scoreFile = open("scores.csv", "w", encoding='UTF8', newline='')
     writer = csv.writer(scoreFile)

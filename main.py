@@ -1,3 +1,4 @@
+import os
 import textwrap
 import PySimpleGUI as sgui
 import random
@@ -55,6 +56,8 @@ def updateScore(lineNum):
 
 def resetScore():
     index = np.linspace(1, len(questions), num=len(questions))
+    os.remove("scores.csv")
+    print("Score reset")
     scoreFile = open("scores.csv", "w", encoding='UTF8', newline='')
     writer = csv.writer(scoreFile)
     for i in range(len(questions)):
@@ -62,10 +65,10 @@ def resetScore():
     scoreFile.close()
 
 def getNewRand():
-    rand = random.randint(0, len(questions) - 2)
+    rand = random.randint(0, len(questions) - 1)
     avgScore = np.mean(score)
     while score[rand] >= avgScore:
-        rand = random.randint(1, len(questions) - 2)
+        rand = random.randint(0, len(questions) - 1)
     return rand
 
 score = loadScore()                                                                                                     # Lade den bisherigen Fragenscore in das Programm

@@ -8,3 +8,45 @@
 8. OWASP TOP10 2021 A08?
 9. OWASP TOP10 2021 A09?
 10. OWASP TOP10 2021 A10?
+11. Wofür steht MS SDL?
+12. Welche Phasen hat MS SDL?
+13. MS SDL practices?
+14. Wofür steht CWE?
+15. Wofür steht TOCTTOU?
+16. Wie funktioniert ein TOCTTOU Angriff mit symlinks in Unix?
+17. Wofür steht CAPEC?
+18. Was ist Fuzzing?
+19. Welche reverse engineering tools gibt es?
+20. Wofür steht MS STRIDE?
+21. Was ist Trusted Path?
+22. Wofür ist Black box, White box und Grey bot testing?
+23. Welche (vier) Ergebnisse kann automatisierte code Analyse liefern?
+24. Wofür steht AST?
+25. Wofür steht CFG?
+26. Wie funktioniert taint analysis?
+27. Wofür steht BSIMM?
+28. Was ist BSIMM?
+29. Was ist der Unterschied zw. Security und Safety?
+30. Was sind die Ziele von IT Security?
+31. Was besagt Art. 25 DSGVO (EU GDPR)?
+32. Saltzer/Schroeder 1?
+33. Saltzer/Schroeder 2?
+34. Saltzer/Schroeder 3?
+35. Saltzer/Schroeder 4?
+36. Saltzer/Schroeder 5?
+37. Saltzer/Schroeder 6?
+38. Saltzer/Schroeder 7?
+39. Saltzer/Schroeder 8?
+40. Saltzer/Schroeder 9?
+41. Saltzer/Schroeder 10?
+42. Was sind die Hauptaktivitäten der Architectural Risk Analysis?
+43. BSI: Was müssen Sie prüfen, wenn Sie die Umsetzung von Sicherheitsmaßnahmen planen?
+44. BSI: Was unternehmen Sie als Informationssicherheitsbeauftragter, wenn die Leitung Ihrer Institution nicht bereit ist, den Aufwand für eine bestimmte Sicherheitsmaßnahme zu tragen?
+45. BSI: Wer sollte in der Regel technische Maßnahmen zur Absicherung eines bestimmten IT-Systems umsetzen?
+46. Was ist der Unterschied zwischen einer NULL DACL und einer leeren DACL?
+47. Was ist der Unterschied zwischen einem (systemweiten) Privileg und der Zugriffsmaske in einem Zugriffssteuerungslisteneintrag (ACE)? Und: Geben Sie ein Beispiel für ein Privileg in Windows?
+48. Wofür steht RBAC?
+49. RBAC: was ist mit Users UND Roles verknüpft?
+50. RBAC: was steht über Roles?
+51. RBAC: Was steht in der Permissions bubble?
+52. Whitelisting: wozu dient der audit mode?

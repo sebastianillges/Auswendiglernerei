@@ -67,7 +67,7 @@ def resetScore():
 def getNewRand():
     rand = random.randint(0, len(questions) - 1)
     avgScore = np.mean(score)
-    while score[rand] >= avgScore:
+    while score[rand] >= avgScore and avgScore != 0:
         rand = random.randint(0, len(questions) - 1)
     return rand
 
@@ -84,7 +84,7 @@ showing = 0
 
 sgui.theme('Black')
 contents = [
-    [sgui.Text(str(randomNumber) + '. ' + questions[randomNumber] + '\n', font=('Helvetica', 18), key='q')],
+    [sgui.Text(questions[randomNumber] + '\n', font=('Helvetica', 18), key='q')],
     [sgui.Text('' + '\n', font=('Helvetica', 18), key='a')],
     [sgui.Button('Antwort anzeigen', font=('Helvetica', 18), key='show')],
     [sgui.Button('Gewusst', font=('Helvetica', 18), key='p'), sgui.Button('Nicht gewusst', font=('Helvetica', 18), key='kp')],
@@ -111,26 +111,29 @@ while True:
         randomNumber = getNewRand()
         currentScore = score[randomNumber]
         if currentScore == scoreAvg:
-            window['q'].update(str(randomNumber) + '. ' + questions[randomNumber] + '\n', text_color='Yellow')
+            color = 'White'
         elif currentScore < scoreAvg:
-            window['q'].update(str(randomNumber) + '. ' + questions[randomNumber] + '\n', text_color='Red')
+            color = 'Red'
         else:
-            window['q'].update(str(randomNumber) + '. ' + questions[randomNumber] + '\n', text_color='Green')
+            color = 'Green'
+        window['q'].update(questions[randomNumber] + '\n', text_color=color)
         window['a'].update('' + '\n')
     if event == 'kp' and showing:
         showing = 0
         randomNumber = getNewRand()
         currentScore = score[randomNumber]
+        scoreAvg = np.mean(score)
         if currentScore == scoreAvg:
-            window['q'].update(str(randomNumber) + '. ' + questions[randomNumber] + '\n', text_color='Yellow')
+            color = 'White'
         elif currentScore < scoreAvg:
-            window['q'].update(str(randomNumber) + '. ' + questions[randomNumber] + '\n', text_color='Red')
+            color = 'Red'
         else:
-            window['q'].update(str(randomNumber) + '. ' + questions[randomNumber] + '\n', text_color='Green')
+            color = 'Green'
+        window['q'].update(questions[randomNumber] + '\n', text_color=color)
         window['a'].update('' + '\n')
     if event == 'show':
         showing = 1
-        window['a'].update(str(randomNumber) + '. ' + answers[randomNumber] + '\n')
+        window['a'].update(answers[randomNumber] + '\n')
     if event == 'reset':
         resetScore()
         score = loadScore()

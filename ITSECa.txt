@@ -44,7 +44,7 @@
 44. "Sie verdeutlichen ihr, welche Risiken mit dem Fehlen der Maßnahme verbunden sind.", "Sie bitten die Leitung, durch Unterschrift zu bestätigen, dass sie die damit verbundenen Gefahren kennt und trägt."
 45. "Der zuständige Systemadministrator"
 46. NULL = Jeder hat alle Rechte für das Objekt, leer = Niemand hat Rechte für das Objekt
-47. Privileg = Legt Rechte für Nutzer/Nutzergruppen fest, wie z.B. read, write, execute,..., Zugriffsmaske = Legt für ein Objekt fest welche Nutzer/Nutzergruppen welche Rechte für dieses Objekt haben.
+47. Privileg = steuern den Zugriff auf Systemressourcen und systembezogene Aufgaben, während Zugriffsrechte den Zugriff auf sicherungsfähige Objekte steuern. Zugriffsmaske = Legt für ein Objekt fest welche Nutzer/Nutzergruppen welche Rechte für dieses Objekt haben.
 48. Role Based Access Control
 49. Sessions
 50. Role Hierarchy
@@ -54,3 +54,19 @@
 54. CWE beschreibt Arten von Softwareschwachstellen, CVE beschreibt spezifische Fälle von Schwachstellen
 55. (UA) User Assignment
 56. user_sessions bzw. session_roles
+57. 256 bit ist sicherer, da mehr Möglichkeiten und (aktuell) praktisch unknackbar gegen Brute Force Angriff, aber dafür benötigt 256 bit 40% mehr Rechenleistung.
+58. Betriebssystemkomponenten (z.B. explorer.exe, taskmgr.exe), legitime Software (z.B. Microsoft Office, Antivirus-Software,Legitime Verzeichnisse (z.B. C:\Program Files, C:\Windows), nur die nötigsten Verzeichnise erlauben und Ausführ- und Schreibrecht auf einer Datei vermeiden.
+59. Hybride Verschlüsselungsverfahren nutzen sowohl Symmetrische als auch Asymmetrische Verfahren, um Daten zu verschlüsseln. Zunächst wird ein Symmetrischer Schlüssel sicher über ein Asymmetrisches Verfahren übertragen, dann werden die Daten mit dem Symmetrischen Schlüssel verschlüsselt und übertragen. Der Vorteil hierbei ist, dass Asymmetrische Verfahren langsam sind aber sicher, während Symmetrische Verfahren schnell sind aber unsicher übertragen werden können. Durch die Kombination beider Verfahren erhält man eine sichere und schnelle Übertragung.
+60. Das CC-Zertifikat (Common Criteria), Die spezifische Evaluierungsstufe, die erreicht wurde, Die Liste der evaluierten Sicherheitsfunktionen, Eine Bestätigung, dass regelmäßige Überprüfungen durchgeführt werden, Kontaktinformationen für weitere Fragen und Unterstützung.
+61. Hauptsächlich Lücke in Supply Chain. Prüfbehörde hat nicht ausreichend geprüft, sodass manipulierte Software nicht aufgefallen ist. Hängt vermutlich auch mit "Reputation" zusammen. Prüfbehörde vertraut VW blind wegen langjähriger guter Erfahrungen.
+62. Weil: Software gut getarnt, Prüfverfahren dahingehend unzureichend, Prüfer nicht ausreichend "digital geschult", (evtl.) Prüfer haben sich nicht ausreichend an Prüfverfahren gehalten (Humand Error).
+63. (gelalle) Laborverhältnisse beim Prüfen um Messfehler zu Beseitigen, Genormte und Geprüfte Messgeräte, geschulte/verifizierte Prüfer...
+64. Teils mit Versuchen den Schaden zu minimieren, teils mit Verweigerung Verantwortung zu übernehmen (Skandal vertuschen).
+65. Rückrufaktionen betroffener Fahrzeuge, Nachrüstung mit neuer Software um Emissionen zu Reduzieren, interne Prozesse und Kontrollen verbessern um Vorfälle in Zukunft zu vermeiden.
+66. funktional getestet („geringe Sicherheit“), Überprüfung der Funktions- und Schnittstellenspezifikationen, Einige unabhängige Tests
+67. strukturgeprüft („minimal ernst“), Analyse von Sicherheitsfunktionen einschließlich High-Level-Design, Unabhängige Tests, Überprüfung der Entwicklertests, Penetrationstests mit „einfachem“ Angriffspotential
+68. methodisch erprobt und geprüft, Weitere Tests, einige Kontrollen der Entwicklungsumgebung, Standortbesichtigung von Entwicklungs-/Fertigungsstandorten
+69. methodisch entworfen, getestet und überprüft, Quellcode-Inspektionen, Penetrationstests „Extended basic“ Angriffspotential
+70. semiformal entworfen und getestet, Formales Modell, modularer Aufbau, Systematische Schwachstellensuche, verdeckte Kanalanalyse
+71. halbformal verifiziertes Design und getestet, Strukturierter Entwicklungsprozess, Penetrationstests mit „hohem“ Angriffspotential
+72. formal verifiziertes Design und getestet, Formale Präsentation der funktionalen Spezifikation, Produkt- oder Systemdesign muss einfach sein, Unabhängige Bestätigung von Entwicklertests

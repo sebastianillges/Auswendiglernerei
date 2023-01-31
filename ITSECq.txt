@@ -54,3 +54,19 @@
 54. Was ist der Unterschied zwischen CWE und CVE?
 55. RBAC: Was steht zwischen Users und Roles auf dem Pfeil?
 56. RBAC: Was steht auf den Pfeilen von Sessions nach Users und von Sessions nach Roles?
+57. Vor/Nachteile von AES 128 bit und 256 bit?
+58. Inhalt für whitelists an einer hochschule?
+59. Wie funktionieren hybride Verschlüsselungsverfahren und was sind ihre Vorteile in Bezug auf Geschwindigkeit?
+60. Welche Informationen benötigt ein Kunde, um beurteilen zu können, ob die versprochenen Sicherheitseigenschaften eines CC-zertifizierten Produkts eingehalten werden?
+61. Dieselskandal: Welche Sicherheitsprobleme?
+62. Dieselskandal: Warum war der Angriff erfolgreich?
+63. Dieselskandal: Welche Sicherheitsmechanismen waren vorhanden, aber nicht effektiv?
+64. Dieselskandal: Wie haben betroffene Unternehmen auf den Vorfall reagiert?
+65. Dieselskandal: Wie erfolgte die Wiederherstellung des Betriebs?
+66. EAL1?
+67. EAL2?
+68. EAL3?
+69. EAL4?
+70. EAL5?
+71. EAL6?
+72. EAL7?
